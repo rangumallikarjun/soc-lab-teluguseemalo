@@ -155,15 +155,14 @@ http://localhost:4040
 
 | Screenshot | Description |
 |---|---|
-| ![WAF Rules](screenshots/phase1-cloudflare/waf-rules.png) | Cloudflare WAF rules |
-| ![Poland IP](screenshots/phase1-cloudflare/security-events-poland.png) | Real attack blocked |
-| ![Kibana](screenshots/phase2-kibana/kibana-dashboard-full.png) | SOC Dashboard |
-| ![World Map](screenshots/phase2-kibana/world-map.png) | GeoIP world map |
-| ![ZAP Before](screenshots/phase3-zap/zap-alerts-before.png) | ZAP 12 alerts |
-| ![ZAP After](screenshots/phase3-zap/zap-alerts-after.png) | ZAP 8 alerts after fix |
-| ![Jira](screenshots/phase4-jira/jira-board-incidents.png) | Incident management |
-| ![Headers](screenshots/phase5-remediation/response-headers.png) | Security headers live |
-
+| ![WAF Rules](screenshots/phase1-cloudflare/cloudflare-waf-rules.png) | Cloudflare WAF rules — 2 custom rules + rate limiting active |
+| ![Poland IP](screenshots/phase1-cloudflare/cloudflare-poland-ip.png) | Real attack blocked — Poland IP 94.26.88.32 attempting /.git/config |
+| ![Docker](screenshots/phase2-kibana/docker-containers.png) | Docker Desktop — all 3 containers running (ES, Kibana, Logstash) |
+| ![Kibana](screenshots/phase2-kibana/kibana-dashboard.png) | Kibana SOC Dashboard — world map + 6 panels |
+| ![ZAP Before](screenshots/phase3-zap/zap-before-fix.png) | OWASP ZAP — 12 alerts before security headers |
+| ![ZAP After](screenshots/phase3-zap/zap-after-fix.png) | OWASP ZAP — 8 alerts after netlify.toml fix |
+| ![Jira](screenshots/phase4-jira/jira-board.png) | Jira board — 3 real incidents triaged |
+| ![Headers](screenshots/phase5-remediation/response-headers.png) | Security headers live — CSP, HSTS, X-Frame-Options confirmed |
 ---
 
 ## Resume Bullets
