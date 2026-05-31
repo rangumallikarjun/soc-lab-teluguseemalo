@@ -165,7 +165,7 @@ http://localhost:4040
 | ![Headers](screenshots/phase5-remediation/response-headers.png.png) | Security headers live — CSP, HSTS, X-Frame-Options confirmed |
 ---
 
-## Resume Bullets
+## Bullets
 
 - Designed and deployed hybrid SOC lab monitoring live React web application using Cloudflare WAF, Elastic SIEM, and ngrok for end-to-end threat detection
 - Detected and blocked real-world attack — Poland IP (AS201814 MEVSPACE) attempting path traversal to /.git/config, mapped to MITRE ATT&CK T1190, T1083, T1036
